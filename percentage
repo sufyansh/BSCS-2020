@@ -1,0 +1,21 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main ()
+{
+    float a,b,c , sum;
+    float percentage;
+    cout<<"urdu marks";
+    cin>>a;
+    cout<<"english marks";
+    cin>>b;
+    cout<<"islamiyat marks";
+    cin>>c;
+    sum = a+b+c;
+    percentage = sum/3;
+    cout<<"percentage"<<percentage;
+
+    return 0;
+}
