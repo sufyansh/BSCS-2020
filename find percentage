@@ -1,0 +1,21 @@
+
+#include <iostream>
+
+using namespace std;
+
+int main ()
+{
+  int percentage;
+  cin>>percentage;
+  if (percentage>=80)
+  cout<<"excellent";
+  else if (percentage>=70&&percentage<80)
+  cout<<"very good";
+  else if (percentage>=60&&percentage<70)
+  cout<<"good";
+  else if (percentage>=50&&percentage<60)
+  cout<<"satisfy";
+  else if (percentage>=40)
+  cout<<"better luck next time";
+ return 0;
+}
