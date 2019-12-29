@@ -1,0 +1,14 @@
+  
+#include<iostream.h>
+int main()
+{
+ int a , b , product;
+ cout<<"enter number";
+ cin>>a;
+ cout<<"enter number";
+ cin>>b;
+ product = a*b;
+ cout<<product;
+ return 0;
+ }
+ 
