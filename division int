@@ -1,0 +1,14 @@
+  
+#include<iostream.h>
+int main()
+{
+ int a , b , division;
+ cout<<"enter number";
+ cin>>a;
+ cout<<"enter number";
+ cin>>b;
+ division = a/b
+ cout<<division;
+ return 0;
+ }
+ 
