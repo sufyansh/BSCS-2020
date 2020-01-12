@@ -1,0 +1,14 @@
+#include<iostream>
+#include<conio.h> 
+int main ()
+{
+	int i, n,table;
+	std::cout<<"enter a digit";
+	std::cin>>n;
+	for (i=1;i<=10;i++)
+	{
+		table=n*i;
+		std::cout <<n<<"*"<<i<<"="<<table;
+	}
+ return 0;
+ }
