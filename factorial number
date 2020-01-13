@@ -1,0 +1,17 @@
+#include<iostream>
+#include<conio.h>
+int main ()
+{
+	int factorial =1;
+	int i , number;
+	std::cout<<"enter a factorial number";
+	std::cin>>number;
+	for (i=1;i<=number;i++)
+	
+	{
+	
+	factorial = factorial*i;
+}
+   std::cout<<"factorial"<<factorial;
+   return 0;
+}
