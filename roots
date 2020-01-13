@@ -1,0 +1,21 @@
+#include<iostream>
+#include<conio.h>
+int main ()
+{
+	float 	D ,a,c ,b;
+  std::cout<<"enter a root ";
+  std::cin>>a;
+  std::cout<<"enter a root";
+  std::cin>>b;
+  std::cout<<"enter a root";
+  std::cin>>c;
+  D=b*b-4*a*c;
+  if (D<0)
+  std::cout<<"root are complex and irrational";
+else  if (D>0)
+  std::cout<<"roots are unequal and rational";
+else  if (D==0)
+  std::cout<<"roots are equal and rational";
+  return 0;
+	
+}
