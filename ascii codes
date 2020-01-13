@@ -1,0 +1,19 @@
+#include<iostream>
+#include<conio.h>
+int main ()
+{
+	char ch;
+	std::cout<<"enter a character";
+	std::cin>>ch;
+	
+	if (ch>=65&&ch<=90)
+    std::cout<<"you enter a upper character";
+    else if (ch>=48&&ch<=57) 
+    std::cout<<"you enter a digit character";
+    else if (ch>=97&&ch<=122)
+    std::cout<<"you enter a lower character";
+    else
+    std::cout<<"you enter a special character";
+    return 0;
+	    
+}
