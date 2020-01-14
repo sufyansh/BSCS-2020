@@ -1,0 +1,21 @@
+#include<iostream>
+#include<conio.h>
+int main ()
+{
+	float lenght , breadth,radius;
+	float square , circumference,area;
+	float pi=3.142;
+    std::cout<<"enter a length of square";
+    std::cin>>lenght;
+    std::cout<<"enter a breadth of square";
+    std::cin>>breadth;
+    square = lenght*breadth;
+    std::cout<<"square="<<square;
+    std::cout<<"enter a radius";
+    std::cin>>radius;
+    area = pi*radius*radius;
+    std::cout<<"area ="<<area;
+    circumference= 2*pi*radius;
+    std::cout<<"circumference="<<circumference;
+	return 0;
+}
