@@ -1,0 +1,17 @@
+#include<iostream>
+#include<conio.h>
+#include<math.h>
+using namespace std;
+int main ()
+{
+	float x,result;
+	cout<<"enter value of x to calculate the log"<<endl;
+	cin>>x;
+	result=log(x);
+	cout<<"value of log"<<x<<"is"<<result<<endl;
+	cout<<"enter value of x to calculate the sin"<<endl;
+	cin>>x;
+	result=sin(x);
+	cout<<"value of sin"<<x<<"is"<<result<<endl;
+	return 0;
+}
