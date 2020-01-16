@@ -1,0 +1,15 @@
+#include<iostream>
+#include<conio.h>
+int main ()
+{
+	int result,i=1,lim,num;
+	std::cout<<"enter a limit&num";
+	std::cin>>lim>>num;
+	while (i<=lim)
+	{
+		result=num*i;
+		std::cout<<result;
+		i++;
+	}
+	getch ();
+}
